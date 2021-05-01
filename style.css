@@ -1,0 +1,62 @@
+body
+{
+	background:url("B.jpg");
+	background-position:center;
+    background-size:cover;
+}
+
+#main
+{
+	font-family: monospace;
+	font: size 125px;
+	font-style: normal;
+	color: rgb(68, 9, 228);
+}
+#game
+{
+	font-family: cursive;
+	font: size 125px;
+	font-style: normal;
+}
+
+#play1,#play2
+{
+	font-family: monospace;
+	font: size 125px;
+	font-style: normal;
+	text-decoration: magenta;
+	color:maroon;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(157, 224, 233);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+    text-decoration-style:purple;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background:mintcream;
+border-radius: 10px;
+border-top: 10px solid #db1252;
+padding: 10px;
+float: none;
+text-align: left;
+}
